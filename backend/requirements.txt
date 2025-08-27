@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pytest
+
+# Audio processing
+librosa
+soundfile
+numpy
+scipy
+
+# Pydantic (already bundled with FastAPI, but pinning version is good)
+pydantic
+
+# For handling UUIDs and JSON responses
+python-multipart
