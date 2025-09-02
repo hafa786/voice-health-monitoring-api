@@ -26,7 +26,6 @@ If everything goes well, http://localhost:5174/
 #### frontend
 -   Run `cd backend`
 -   Run `python3 -m pip install -r requirements.txt`
--   Run `npm run start`
 -   Run `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
 
 If everythin is successfull, Open http://localhost:8000/docs → your API should still work.
